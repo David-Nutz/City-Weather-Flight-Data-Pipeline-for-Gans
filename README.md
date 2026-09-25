@@ -1,8 +1,13 @@
 # City-Weather-Flight-Data-Pipeline-for-Gans
+This project was developed as part of the Data Analytics course at WBS Coding School. It focuses on building an ETL pipeline for the fictional startup Gans, which is developing an e-scooter-sharing system.
 
-An ETL pipeline that collects and processes city, population, weather, airport, and flight data and stores it in a MySQL database.
+Gans aims to operate in the world's most populous cities, providing users with e-scooters that can be rented by the minute. The company's operational success depends on having scooters available where users need them.
 
-In this project, I created a data pipeline that collects data through web scraping and API requests about German cities, nearby airports, and weather conditions. The final results are stored in a relational MySQL database. In addition, multiple Python functions have been developed to easily add new data to the database.
+To improve its ability to anticipate scooter movements, Gans first needs to collect, transform, and store relevant data. Predictive modelling is planned as a future step, while this project focuses on establishing the data foundation required for such analyses.
+
+The pipeline collects city, population, weather, airport, and flight data from web sources and external APIs. The data is processed and transformed using Python and Pandas before being loaded into a relational MySQL database.
+
+Reusable Python functions automate the extraction, transformation, and loading process, allowing new data to be added to the database with minimal manual intervention.
 
 ## Data
 
