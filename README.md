@@ -19,7 +19,7 @@ Reusable Python functions automate the extraction, transformation, and loading p
 
 ## Technologies Used
 
-- **Data extraction and processing:** Python, Pandas
+- **Data extraction and processing:** Python, Pandas, Beautifulsoup and requests libaries.
 - **Development environment:** VS Code
 - **Data storage:** MySQL
 - **Database management:** SQL
@@ -27,6 +27,7 @@ Reusable Python functions automate the extraction, transformation, and loading p
 ## Project Structure
 
 - **README:** Project documentation
+SQL and Python script: 
 - **Gans_ETL:** Database and table construction
 - **ETL Pipeline:** Construction of four Python functions for collecting, processing, and storing data in the SQL database
 
