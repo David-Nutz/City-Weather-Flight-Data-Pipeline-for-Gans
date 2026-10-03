@@ -43,6 +43,10 @@ The MySQL database consists of five relational tables:
 
 Foreign keys connect the tables and allow the data to be queried across the different entities.
 
+The final database:
+
+![Database structure](Database structure.png)
+
 ## Method
 
 The project follows an ETL (Extract, Transform, Load) approach implemented in Python. City and population data is extracted from Wikipedia, while weather, airport, and flight data is retrieved through external APIs.
