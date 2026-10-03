@@ -45,7 +45,7 @@ Foreign keys connect the tables and allow the data to be queried across the diff
 
 The final database:
 
-![Database structure](Database structure.png)
+![Database structure](Database%20structure.png)
 
 ## Method
 
